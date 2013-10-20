@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <org.ischool.util.MyMarquee
+        android:id="@+id/new_msg_dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/null_string"
+        android:textColor="@color/white"
+        android:textSize="20dip" />
+
+    <ImageView
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/null_string"
+        android:src="@drawable/news_list_separator_line" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author" />
+
+        <TextView
+            android:id="@+id/new_msg_dialog_userID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="@string/null_string" />
+
+        <TextView
+            android:id="@+id/new_msg_dialog_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/time" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/new_msg_dialog_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/null_string"
+                android:textColor="@color/white"
+                android:textSize="16dip" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/new_msg_dialog_btnConfirm"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_confirm" />
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_tog_service"
+                android:textColor="@color/black"
+                android:textSize="14dip" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:textColor="@color/blue"
+                android:textSize="16dip" />
+
+            <CheckBox
+                android:id="@+id/set_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/toolbar_item_contentDescription"
+            android:src="@drawable/news_list_separator_line" />
+
+        <LinearLayout
+            android:id="@+id/set_msg_count"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_msg_count"
+                android:textColor="@color/black"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/toolbar_item_contentDescription"
+            android:src="@drawable/news_list_separator_line" />
+
+        <LinearLayout
+            android:id="@+id/set_minTime"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_minTime"
+                android:textColor="@color/black"
+                android:textSize="14dip" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/toolbar_item_contentDescription"
+            android:src="@drawable/news_list_separator_line" />
+
+        <LinearLayout
+            android:id="@+id/set_alarmTime"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_alarmTime"
+                android:textColor="@color/black"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/toolbar_item_contentDescription"
+            android:src="@drawable/news_list_separator_line" />
+
+        <LinearLayout
+            android:id="@+id/set_clearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_clear_search_count"
+                android:textColor="@color/black"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/toolbar_item_contentDescription"
+            android:src="@drawable/news_list_separator_line" />
+
+        <LinearLayout
+            android:id="@+id/set_logoutLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_logout"
+                android:textColor="@color/black"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/toolbar_item_contentDescription"
+            android:src="@drawable/news_list_separator_line" />
+
+        <LinearLayout
+            android:id="@+id/set_aboutLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_about"
+                android:textColor="@color/black"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/toolbar_item_contentDescription"
+            android:src="@drawable/news_list_separator_line" />
+    </LinearLayout>
+
+</ScrollView>

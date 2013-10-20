@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://bottle-pc:81/svn/UniqueTribe"
+   name=""
+   revision="4"
+   last-author="bottle"
+   url="http://bottle-pc:81/svn/UniqueTribe/iSchool/res/drawable-mdpi"
+   uuid="a85287b0-eed9-4248-936a-5190776ab047"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+</wc-entries>

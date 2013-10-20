@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sms_msg_atme"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/sms_msg_atme_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="365dip" >
+
+        <ListView
+            android:id="@+id/sms_msg_atme_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/news_list_separator_line"
+            android:listSelector="@drawable/news_list_item_selector"
+            android:visibility="gone" >
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sms_msg_atme_loadMore_btn"
+        android:layout_width="320dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sms_msg_atme_linear"
+        android:text="@string/sms_mydata_loadmore" />
+
+</RelativeLayout>

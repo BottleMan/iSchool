@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://bottle-pc:81/svn/UniqueTribe"
+   name=""
+   revision="4"
+   last-author="bottle"
+   url="http://bottle-pc:81/svn/UniqueTribe/iSchool/res/layout"
+   uuid="a85287b0-eed9-4248-936a-5190776ab047"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="about.xml"
+   checksum="28d955ee95c1c2afeae15023bb30f490"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="classroom_detail_dialog.xml"
+   checksum="1cdfcbdebf5ec0ea6e46d56624e8103c"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="classroom_detail_show_info.xml"
+   checksum="1e54fe2b79425545ecd46bc483d60262"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="loadmore.xml"
+   checksum="d38403a14062404fd99961edb635bbd2"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="login.xml"
+   checksum="7d507c237391e6c27f5c698a71f4914c"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="main.xml"
+   checksum="74dba5383c17a987a85df9b79c3c6126"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="main_search_classroom.xml"
+   checksum="ce8afe840a8372ea56f7361658566374"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="main_search_classroom_detail.xml"
+   checksum="073cc583b56ba05a4f8a5bc1f8f34dea"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="new_msg_dialog.xml"
+   checksum="2351761d64a0820f06235d696d5ac08e"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="news_list_item.xml"
+   checksum="a880d7e7982dfc90107224ce9ff20767"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="query_class_room_detail_item.xml"
+   checksum="c36cbfd6f520e99b119c329d0db3135d"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="query_login.xml"
+   checksum="62d663b4dd7b85d3a9e5db34e827fa26"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="query_result.xml"
+   checksum="cef24c96bb10457881111f7ebec25acd"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="query_result_detail_item.xml"
+   checksum="4fd89678db87234750299815d6b36c40"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="query_schedule_detail2.xml"
+   checksum="4c9dbb6498600c6a28686d998454e867"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="query_schedule_detail2_item.xml"
+   checksum="79944d6a6cc9f21a9809023230bcde15"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="result_detail_dialog.xml"
+   checksum="b8bb13940eee411deb1c74e8b4a8ab1f"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="schedule_alarm_dialog.xml"
+   checksum="9a9e67a3d689477211af6b7a3d94649e"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="schedule_detail_dialog.xml"
+   checksum="cd858e0a822c1b98e95b4d92e82c983f"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="setting.xml"
+   checksum="0b0a79163a59d0252f5993d2508a75c7"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="setting_alarm_time.xml"
+   checksum="dba63dfa6b4eca8fa9e867d7c4032ac8"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="setting_msg_num.xml"
+   checksum="f69c117e322c952a2338fc7f62d3a30f"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="sms_msg_atme.xml"
+   checksum="ef4c226dd2a7827d1a8f206b52eb2a0a"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="sms_msg_detail.xml"
+   checksum="f596c85b71078e89e7c18e1013ab35b3"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="sms_my_msg.xml"
+   checksum="01bce55fb4ecc46c32b9f16c3d4c6786"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="sms_send_msg.xml"
+   checksum="b9b8e53f16888000ad351bfd299b44e7"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="titlebar_item.xml"
+   checksum="b56a0e392f5cf49c6c488ce601a20047"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="toolbar_item.xml"
+   checksum="408c053e513b7b4a28183d120c0f142f"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="user_signup.xml"
+   checksum="41582d2f60800b83873acaadd3452a45"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+</wc-entries>

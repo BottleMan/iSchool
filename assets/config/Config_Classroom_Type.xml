@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassRoom_Type>
+    <Type>普通教室</Type>
+    <Type>专用教室</Type>
+    <Type>语音室</Type>
+    <Type>美术室</Type>
+    <Type>实验室</Type>
+    <Type>机房</Type>
+</ClassRoom_Type>
+    
+    

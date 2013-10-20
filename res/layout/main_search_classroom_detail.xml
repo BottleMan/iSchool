@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/classroom_detail_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="410dip"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/classroom_category"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlebar_dark_background" >
+
+        <TextView
+            android:id="@+id/txt_classroomName"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:height="30dp"
+            android:text="@string/classroom_detail_name"
+            android:textColor="@color/blue"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_classroomArea"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txt_classroomName"
+            android:gravity="center"
+            android:height="30dp"
+            android:text="@string/classroom_detail_area"
+            android:textColor="@color/blue"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_classroomType"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txt_classroomArea"
+            android:gravity="center"
+            android:height="30dp"
+            android:text="@string/classroom_detail_type"
+            android:textColor="@color/blue"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_classroomVolume"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txt_classroomType"
+            android:gravity="center"
+            android:height="30dp"
+            android:text="@string/classroom_detail_volume"
+            android:textColor="@color/blue"
+            android:textSize="14sp" >
+        </TextView>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/query_classroom_detail_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/news_list_separator_line"
+        android:listSelector="@drawable/news_list_item_selector"
+        android:visibility="gone" >
+    </ListView>
+
+    <Button
+        android:id="@+id/classroom_detail_refresh2"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dip"
+        android:layout_marginLeft="50dip"
+        android:text="@string/result_detail_refresh" />
+
+</LinearLayout>

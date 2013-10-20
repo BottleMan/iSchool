@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_login"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="400dip" >
+
+    <EditText
+        android:layout_marginTop="100dip"
+        android:id="@+id/result_UserID"
+        android:layout_marginLeft="50dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/result_userId_hint" />
+
+    <EditText
+        android:id="@+id/result_UserPWD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="50dip"
+        android:ems="10"
+        android:hint="@string/result_userPWD_hint"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/result_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="10dip"
+        android:text="@string/btn_confirm" />
+
+    <CheckBox
+        android:id="@+id/result_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="60dip"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/result_savePwd"
+        android:textColor="@color/black" />
+
+    <CheckBox
+        android:id="@+id/result_checkBox_autoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dip"
+        android:checked="true"
+        android:text="@string/result_autoLogin"
+        android:textColor="@color/black" />
+
+</LinearLayout>

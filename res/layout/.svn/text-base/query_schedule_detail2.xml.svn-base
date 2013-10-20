@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ll_gray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/category"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/schedule_detail_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_titlebar" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/schedule_detail_title"
+                android:textColor="@color/white"
+                android:textSize="22dip" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/schedule_detail_category"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/schedule_detail_title"
+            android:layout_marginTop="-6dip"
+            android:background="@drawable/titlebar_dark_background" >
+
+            <TextView
+                android:id="@+id/txt_mo"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:height="30dp"
+                android:text="@string/schedule_detail_mo"
+                android:textColor="@color/blue"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_tu"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt_mo"
+                android:gravity="center"
+                android:height="30dp"
+                android:text="@string/schedule_detail_tu"
+                android:textColor="@color/blue"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_we"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt_tu"
+                android:gravity="center"
+                android:height="30dp"
+                android:text="@string/schedule_detail_we"
+                android:textColor="@color/blue"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_th"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt_we"
+                android:gravity="center"
+                android:height="30dp"
+                android:text="@string/schedule_detail_th"
+                android:textColor="@color/blue"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_fr"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt_th"
+                android:gravity="center"
+                android:height="30dp"
+                android:text="@string/schedule_detail_fr"
+                android:textColor="@color/blue"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_sa"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt_fr"
+                android:gravity="center"
+                android:height="30dp"
+                android:text="@string/schedule_detail_sa"
+                android:textColor="@color/blue"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_su"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt_sa"
+                android:gravity="center"
+                android:height="30dp"
+                android:text="@string/schedule_detail_su"
+                android:textColor="@color/blue"
+                android:textSize="14sp" >
+            </TextView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/schedule_gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip"
+        android:layout_below="@+id/category"
+        android:cacheColorHint="#00000000"
+        
+        android:numColumns="7"
+        android:stretchMode="columnWidth"
+        android:columnWidth="60dp"
+        android:visibility="gone" >
+    </GridView>
+    
+    <ProgressBar
+            android:id="@+id/schedule_detail_progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/schedule_detail_getdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/schedule_detail_progressBar"
+            android:layout_centerHorizontal="true"
+            android:text="@string/result_detail_getDate"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/schedule_detail_refresh"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/result_detail_refresh"
+            android:visibility="gone" />
+
+</RelativeLayout>

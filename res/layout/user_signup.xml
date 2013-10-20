@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ll_gray" >
+
+    <RelativeLayout
+        android:id="@+id/signup_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_titlebar" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:text="@string/sms_signup_title"
+            android:textColor="@color/white"
+            android:textSize="22dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/signup_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/signup_title"
+        android:layout_marginRight="10dip" >
+
+        <EditText
+            android:id="@+id/signup_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="@string/sms_signup_userName" />
+
+        <EditText
+            android:id="@+id/signup_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/signup_userName"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/signup_userName"
+            android:ems="10"
+            android:hint="@string/sms_signup_pwd"
+            android:inputType="textPassword"
+            android:maxEms="15"
+            android:minEms="6" />
+
+        <EditText
+            android:id="@+id/signup_pwd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/signup_pwd"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/signup_pwd"
+            android:ems="10"
+            android:hint="@string/sms_signup_pwd2"
+            android:inputType="textPassword"
+            android:maxEms="15"
+            android:minEms="6" />
+
+        <EditText
+            android:id="@+id/signup_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/signup_pwd2"
+            android:ems="10"
+            android:hint="@string/sms_signup_name" />
+
+        <EditText
+            android:id="@+id/signup_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/signup_name"
+            android:ems="10"
+            android:hint="@string/sms_signup_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/signup_telnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/signup_email"
+            android:ems="10"
+            android:hint="@string/sms_signup_telnum"
+            android:inputType="phone" />
+
+        <Spinner
+            android:id="@+id/signup_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/signup_telnum" />
+
+        <TextView
+            android:id="@+id/signup_userName_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/signup_userName"
+            android:layout_alignBottom="@+id/signup_userName"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:text="@string/sms_signup_userName_lable"
+            android:textColor="@color/red"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/signup_pwd_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/signup_pwd"
+            android:layout_alignBottom="@+id/signup_pwd"
+            android:layout_alignRight="@+id/signup_userName_lable"
+            android:text="@string/sms_signup_pwd_lable"
+            android:textColor="@color/red"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/signup_pwd2_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/signup_pwd2"
+            android:layout_alignBottom="@+id/signup_pwd2"
+            android:layout_alignLeft="@+id/signup_pwd_lable"
+            android:text="@string/sms_signup_pwd2_lable"
+            android:textColor="@color/red"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/signup_name_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/signup_name"
+            android:layout_alignBottom="@+id/signup_name"
+            android:layout_alignLeft="@+id/signup_pwd2_lable"
+            android:text="@string/sms_signup_name_lable"
+            android:textColor="@color/red"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/signup_email_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/signup_email"
+            android:layout_alignBottom="@+id/signup_email"
+            android:layout_alignLeft="@+id/signup_name_lable"
+            android:text="@string/sms_signup_email_lable"
+            android:textColor="@color/black"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/signup_telnum_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/signup_telnum"
+            android:layout_alignBottom="@+id/signup_telnum"
+            android:layout_alignLeft="@+id/signup_email_lable"
+            android:text="@string/sms_signup_telnum_lable"
+            android:textColor="@color/black"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/signup_sex_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/signup_spinner"
+            android:layout_alignBottom="@+id/signup_spinner"
+            android:layout_alignLeft="@+id/signup_telnum_lable"
+            android:text="@string/sms_signup_sex"
+            android:textColor="@color/black"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/signup_btn_confirm"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/signup_sex_lable"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/sms_signup_confirm" />
+
+        <Button
+            android:id="@+id/signup_btn_cancel"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/signup_btn_confirm"
+            android:layout_alignBottom="@+id/signup_btn_confirm"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="29dp"
+            android:text="@string/sms_signup_cancel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_spinner"
+            android:layout_centerHorizontal="true"
+            android:text="@string/sms_signup_notice"
+            android:textColor="@color/black"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/signup_progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/signup_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_progressBar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sms_signup_txt"
+        android:textColor="@color/black"
+        android:textSize="14dip"
+        android:visibility="gone" />
+
+</RelativeLayout>

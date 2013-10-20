@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://bottle-pc:81/svn/UniqueTribe"
+   name=""
+   revision="4"
+   last-author="bottle"
+   url="http://bottle-pc:81/svn/UniqueTribe/iSchool/res/drawable-hdpi"
+   uuid="a85287b0-eed9-4248-936a-5190776ab047"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="bg_login.jpg"
+   checksum="0cfb12c4ee631376e5cd44f873699a53"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="bg_titlebar.png"
+   checksum="e97c82e38ab900f4307da553ff347da7"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="bg_toolbar.png"
+   checksum="a26d735738e870b5f4636a6438c41ec9"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="btn_null.png"
+   checksum="bdd6050b1bbf09125d8a5b26d5bd54d9"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="dbtn_selected.png"
+   checksum="d334b27eca6cad90386c20287e441254"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="ic_launcher.png"
+   checksum="5171e80e48ce0d92042a288183ec87da"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="image_about.png"
+   checksum="25cf04a965ee74ea5633bd5e357767d8"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="login.jpg"
+   checksum="6f15c587b044966f36db662e98dc2616"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="news_list_item_go_detail.png"
+   checksum="e716cb0f785de3970961523ceafc2feb"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="news_list_item_go_detail_selected.png"
+   checksum="b8b954dc1a79352be465a2331f814021"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="news_list_separator_line.png"
+   checksum="661ca7d2815675dee5b5c2f1cc11af04"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="titlebar_dark_background.png"
+   checksum="135aa5563b8c338f657463c4c23d5508"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+<entry
+   name="ubtn_selected.png"
+   checksum="733750a235bf628dc4efbf7a875070cd"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:19:00.000000Z"/>
+</wc-entries>

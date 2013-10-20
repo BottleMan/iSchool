@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sms_Send_Layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sms_Send_smsTitle_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="@string/sms_title_title"
+        android:textColor="@color/black"
+        android:textSize="16dip" />
+
+    <EditText
+        android:id="@+id/sms_Send_editTextSMSTitle"
+        android:layout_width="310dip"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/sms_title_title_hint"
+        android:maxLength="40"
+        android:singleLine="true" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/sms_Send_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="@string/sms_title_text1"
+        android:textColor="@color/black"
+        android:textSize="16dip" />
+
+    <EditText
+        android:id="@+id/sms_Send_editTextSMSContent"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:ems="10"
+        android:hint="@string/sms_title_text2"
+        android:inputType="textMultiLine"
+        android:maxLength="40" >
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="15dip" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/spinner_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/select_range"
+            android:textColor="@color/black"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/checkbox_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:text="@string/select_obj"
+            android:textColor="@color/black"
+            android:textSize="16dip" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dip" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/sms_send_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:text="@string/sms_title_text3"
+        android:textColor="@color/black"
+        android:textSize="22dip" />
+
+</LinearLayout>

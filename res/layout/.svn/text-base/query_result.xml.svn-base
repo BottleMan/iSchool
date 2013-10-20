@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainmenu_search_result"
+    android:layout_width="fill_parent"
+    android:layout_height="400dip" >
+
+    <RelativeLayout
+        android:id="@+id/result_detail_category"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-6dip"
+        android:background="@drawable/titlebar_dark_background" >
+
+        <TextView
+            android:id="@+id/txt_Subject"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:height="30dp"
+            android:text="@string/result_detail_subject"
+            android:textColor="@color/blue"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_Point"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txt_Subject"
+            android:gravity="center"
+            android:height="30dp"
+            android:text="@string/result_detail_point"
+            android:textColor="@color/blue"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_result"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txt_Point"
+            android:gravity="center"
+            android:height="30dp"
+            android:text="@string/result_detail_result"
+            android:textColor="@color/blue"
+            android:textSize="14sp" >
+        </TextView>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/result_detail_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result_detail_category"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/news_list_separator_line"
+        android:listSelector="@drawable/news_list_item_selector"
+        android:visibility="gone" >
+    </ListView>
+
+    <Button
+        android:id="@+id/result_detail_refresh"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dip"
+        android:text="@string/result_detail_refresh" />
+
+</RelativeLayout>

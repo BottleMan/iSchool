@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://bottle-pc:81/svn/UniqueTribe"
+   revision="4"
+   last-author="bottle"
+   url="http://bottle-pc:81/svn/UniqueTribe/iSchool"
+   uuid="a85287b0-eed9-4248-936a-5190776ab047"
+   committed-rev="4"
+   kind="dir"
+   committed-date="2012-10-24T12:05:11.186009Z"/>
+<entry
+   name=".classpath"
+   checksum="6ec30ad0367e070912e6563aa0a78382"
+   last-author="bottle"
+   text-time="2012-10-24T07:18:02.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name=".project"
+   checksum="142cc7ceb8801de6dfe959c7798aa0e5"
+   last-author="bottle"
+   text-time="2012-10-24T07:18:02.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+<entry
+   name="AndroidManifest.xml"
+   checksum="4764c33a35cb7c39c2fbfd28f14564b3"
+   last-author="bottle"
+   text-time="2012-10-24T12:04:28.000000Z"
+   committed-rev="3"
+   kind="file"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+<entry
+   name="assets"
+   kind="dir"/>
+<entry
+   name="libs"
+   kind="dir"/>
+<entry
+   name="proguard-project.txt"
+   checksum="18bfe77c342b4698f1cef19cf8d918e2"
+   last-author="bottle"
+   text-time="2012-10-24T07:18:02.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="project.properties"
+   checksum="afa3e1f9fb7b5ac3b446263c273c0db7"
+   last-author="bottle"
+   text-time="2012-10-24T07:18:02.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+</wc-entries>

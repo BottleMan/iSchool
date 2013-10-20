@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://bottle-pc:81/svn/UniqueTribe"
+   name=""
+   revision="4"
+   last-author="bottle"
+   url="http://bottle-pc:81/svn/UniqueTribe/iSchool/assets/config"
+   uuid="a85287b0-eed9-4248-936a-5190776ab047"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="Config_Classroom_Area.xml"
+   checksum="189ff1e0ad49a6f883c4260d3f6e2eb7"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="Config_Classroom_Class.xml"
+   checksum="dce7acbed2a391463e5ce22ce998ab63"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="Config_Classroom_Day.xml"
+   checksum="1b4745084d2c9b67a172e1cf0a7faa7c"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="Config_Classroom_Season.xml"
+   checksum="1d7a9199e2eedb952355a3e85823d1b0"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="Config_Classroom_Type.xml"
+   checksum="11bcc259a8b2f2802f8f0f0abbdde5cf"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="Config_Classroom_Week.xml"
+   checksum="5c7488319140733a1beb72cdfe995228"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="Config_Classroom_Year.xml"
+   checksum="debf48cc129a561ab2c5c3218258878e"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="ReadMe.txt"
+   checksum="9a2ca4bedf4980395134fe75de812a9b"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"
+   prop-time="2012-11-21T14:18:58.000000Z"/>
+</wc-entries>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_login" >
+
+    <EditText
+        android:id="@+id/login_editUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="305dp"
+        android:ems="10"
+        android:hint="@string/sms_login_hint1"
+        android:textSize="14dip" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/login_editPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/login_editUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dip"
+        android:ems="10"
+        android:hint="@string/sms_login_hint2"
+        android:inputType="textPassword"
+        android:textSize="14dip" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_editPwd"
+        android:layout_marginTop="10dip"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/login_btn_logup"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dip"
+            android:text="@string/sms_login_signUp" />
+
+        <Button
+            android:id="@+id/login_btn_confirm"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:text="@string/sms_login_confirm" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/login_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sms_login_autoLogIn"
+        android:textColor="@color/black"
+        android:textSize="14dip" />
+
+</RelativeLayout>

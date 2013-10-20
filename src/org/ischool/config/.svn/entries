@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://bottle-pc:81/svn/UniqueTribe"
+   name=""
+   revision="4"
+   last-author="bottle"
+   url="http://bottle-pc:81/svn/UniqueTribe/iSchool/src/org/ischool/config"
+   uuid="a85287b0-eed9-4248-936a-5190776ab047"
+   committed-rev="4"
+   kind="dir"
+   committed-date="2012-10-24T12:05:11.186009Z"/>
+<entry
+   name="ExitApplication.java"
+   checksum="01a0dfdb04d68eb45075a3ee88614d11"
+   last-author="bottle"
+   committed-rev="4"
+   text-time="2012-10-24T12:05:12.000000Z"
+   kind="file"
+   committed-date="2012-10-24T12:05:11.186009Z"/>
+<entry
+   name="GPSServiceListener.java"
+   checksum="7eb4bb970366e54e6e610a363c68e82c"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="JsonParase.java"
+   checksum="193536893c73afb1dc38d0c698d32e57"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="ListenerConfig.java"
+   checksum="aece710526dcc5ffeb264399ad5fe53c"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="Security.java"
+   checksum="ff01212f267ffe828b370982d93545b1"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="StateManager.java"
+   checksum="1c60bc16820f5b5a693fd6c9b5cefcee"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="UrlConfig.java"
+   checksum="3aa2c15cc6ef487c82635bdac2dde325"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="XMLParase.java"
+   checksum="401e0f424238a252cae6afe15068edde"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+</wc-entries>

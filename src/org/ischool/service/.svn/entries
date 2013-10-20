@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://bottle-pc:81/svn/UniqueTribe"
+   name=""
+   revision="4"
+   last-author="bottle"
+   url="http://bottle-pc:81/svn/UniqueTribe/iSchool/src/org/ischool/service"
+   uuid="a85287b0-eed9-4248-936a-5190776ab047"
+   committed-rev="3"
+   kind="dir"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+<entry
+   name="AlarmReceiver.java"
+   checksum="40b633880b3b5f5ba0d8af1adcb795e8"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="AlarmService.java"
+   checksum="40a7ab4c64d22c5b5af3cf9ff9cb6968"
+   last-author="bottle"
+   committed-rev="3"
+   text-time="2012-10-24T12:04:28.000000Z"
+   kind="file"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+<entry
+   name="ISchoolService.java"
+   checksum="6e96ab3f8bf5a0519fa259c4bcba7539"
+   last-author="bottle"
+   committed-rev="3"
+   text-time="2012-10-24T12:04:28.000000Z"
+   kind="file"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+<entry
+   name="LocationService.java"
+   checksum="2036394fa87a48dc72fe447a85fd0e39"
+   last-author="bottle"
+   committed-rev="3"
+   text-time="2012-10-24T12:04:28.000000Z"
+   kind="file"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+<entry
+   name="MyBroadcastReceiver.java"
+   checksum="788e1e1934c96a2a9b2d8286539b85e1"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="ScheduleAlarmService.java"
+   checksum="411b0f44d2677b5082e19f98de372ebd"
+   last-author="bottle"
+   committed-rev="3"
+   text-time="2012-10-24T12:04:28.000000Z"
+   kind="file"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+</wc-entries>

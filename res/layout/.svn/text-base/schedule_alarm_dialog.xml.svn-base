@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/null_string"
+        android:src="@drawable/news_list_separator_line" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/schedule_alarm_unit1"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/unit1_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/unit1_place"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/schedule_alarm_unit2"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/unit2_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/unit2_place"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/schedule_alarm_unit3"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/unit3_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/unit3_place"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/schedule_alarm_unit4"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/unit4_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/unit4_place"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/schedule_alarm_unit5"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/unit5_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/unit5_place"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/new_msg_dialog_btnConfirm"
+        android:layout_marginLeft="20dip"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_confirm" />
+
+</LinearLayout>

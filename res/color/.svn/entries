@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://bottle-pc:81/svn/UniqueTribe"
+   name=""
+   revision="4"
+   last-author="bottle"
+   url="http://bottle-pc:81/svn/UniqueTribe/iSchool/res/color"
+   uuid="a85287b0-eed9-4248-936a-5190776ab047"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="loadmore_btn_selector.xml"
+   checksum="8aea958faf281707c6e4b3205475c04b"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="news_category_item_title_selector.xml"
+   checksum="dd099f7f45131246d60b76fa3788f4a2"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="news_list_item_digest_selector.xml"
+   checksum="b124fa333a62ba5094efc60fd1d55b69"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="news_list_item_source_selector.xml"
+   checksum="ce807688176d434a679e01bd0833d52b"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="news_list_item_title_selector.xml"
+   checksum="eba781ee6fc3d0886ab24f3e82e213bf"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+</wc-entries>

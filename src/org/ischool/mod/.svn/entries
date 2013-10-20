@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://bottle-pc:81/svn/UniqueTribe"
+   name=""
+   revision="4"
+   last-author="bottle"
+   url="http://bottle-pc:81/svn/UniqueTribe/iSchool/src/org/ischool/mod"
+   uuid="a85287b0-eed9-4248-936a-5190776ab047"
+   committed-rev="3"
+   kind="dir"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+<entry
+   name="ClassIfo.java"
+   checksum="ab7c39e35ea839c540c2062309e43990"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="ClassRoomIfo.java"
+   checksum="151b4b4292ac8d3601d2fcd0225ca44c"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="MsgAtMe.java"
+   checksum="b184ea3aa1c8fe598ed7ccc6d8069ae5"
+   last-author="bottle"
+   committed-rev="3"
+   text-time="2012-10-24T12:04:28.000000Z"
+   kind="file"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+<entry
+   name="MsgInfo.java"
+   checksum="4c8a7314046ec25e7f859990b52e4649"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="MyMsg.java"
+   checksum="f264172a6899b54d946fa05403005bae"
+   last-author="bottle"
+   committed-rev="3"
+   text-time="2012-10-24T12:04:28.000000Z"
+   kind="file"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+<entry
+   name="QueryClassRoom.java"
+   checksum="8efef99e7a5548b622ca4cb7c66fd550"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="QueryClassRoomDetail.java"
+   checksum="1afc34065b5c6dff1e6c8aa2e5fa30dc"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="QueryLogIn.java"
+   checksum="c8178fd94208eb985627040e8075b2dd"
+   last-author="bottle"
+   committed-rev="3"
+   text-time="2012-10-24T12:04:28.000000Z"
+   kind="file"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+<entry
+   name="QueryResultDetail.java"
+   checksum="512432ea0ac37e3682cc0fea93d60b9b"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="QuickQueryClassRoomDetail.java"
+   checksum="fad143ca474528ff30712b75583dfe89"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="ResultIfo.java"
+   checksum="f57759e87d391521684be5afa79ce9bd"
+   last-author="bottle"
+   committed-rev="2"
+   text-time="2012-10-24T07:18:02.000000Z"
+   kind="file"
+   committed-date="2012-10-24T07:18:00.150450Z"/>
+<entry
+   name="SendSMS.java"
+   checksum="3c5ea1ce3d6b5d7a44b8206b4cfd1785"
+   last-author="bottle"
+   committed-rev="3"
+   text-time="2012-10-24T12:04:28.000000Z"
+   kind="file"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+<entry
+   name="Setting.java"
+   checksum="ceee221239f9c1df9c78e761d672ab18"
+   last-author="bottle"
+   committed-rev="3"
+   text-time="2012-10-24T12:04:28.000000Z"
+   kind="file"
+   committed-date="2012-10-24T12:04:27.670520Z"/>
+</wc-entries>
